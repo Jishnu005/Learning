@@ -1,4 +1,5 @@
 # Linkedlist
+```
 class Node:
     def __init__(self, data=None, next=None, prev=None):
         self.data = data
@@ -151,7 +152,6 @@ class Linkedlist:
 
 l = Linkedlist()
 # l.at_beginning(14)
-<!-- l.at_beginning(14) -->
 l.insert_list([12,29, 53, 69])
 l.insert_list([67, 46, 77, 99, 19])
 # l.print_forward()
@@ -163,17 +163,7 @@ l.insert_list([67, 46, 77, 99, 19])
 # l.print_forward()
 # l.remove_value(17)
 # l.check_value(17)
-<!-- l.print_forward() -->
-<!-- l.print_backward() -->
-<!-- print(l.find_using_index(4)) -->
-<!-- l.insert_at_index(6, 42) -->
-<!-- l.print_forward() -->
-<!-- l.remove_using_index(6) -->
-<!-- l.print_forward() -->
-<!-- l.remove_value(17) -->
-<!-- l.check_value(17) -->
 l.print_forward()
 # l.print_backward()
-<!-- l.print_backward() -->
 l.sort_linkedlist()
-l.print_forward()
+l.print_forward()```
